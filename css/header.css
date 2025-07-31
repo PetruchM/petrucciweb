@@ -19,3 +19,7 @@ header {
     cursor: pointer;
 }
 
+.logo {
+    height: 40px;
+    width: auto;
+}
