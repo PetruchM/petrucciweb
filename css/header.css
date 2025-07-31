@@ -1,29 +1,37 @@
 header {
     background-color: rgb(83, 15, 15);
-    height: 40px;
+    height: 6vh;
     display: flex;
     justify-content: space-between;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0 2px 5px black;
+    z-index: 1;
 }
 
 .right-header {
-    padding-right: 2rem;
+    padding-right: 1.5rem;
 }
 
 .button-header {
-    height: 40px;
+    height: 100%;
     background-color: rgb(83, 15, 15);
     border: none;
-    margin-left: 10px;
+    margin-left: 12px;
     cursor: pointer;
 }
 
 .button-header-a {
     color: white;
-    font-size: 18px;
+    font-size: 21px;
     text-decoration: none;
 }
 
-.logo {
-    height: 40px;
-    width: auto;
+.logo-header {
+    height: 84%;
+    margin: 8%;
+}
+
+@media screen and (max-width: 1024px) {
+    
+    
 }
