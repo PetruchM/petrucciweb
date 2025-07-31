@@ -12,11 +12,15 @@ header {
 .button-header {
     height: 40px;
     background-color: rgb(83, 15, 15);
-    color: white;
     border: none;
-    font-size: 18px;
     margin-left: 10px;
     cursor: pointer;
+}
+
+.button-header-a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
 }
 
 .logo {
