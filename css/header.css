@@ -5,7 +5,6 @@ header {
     justify-content: space-between;
     border-bottom-right-radius: 15px;
     box-shadow: 0 2px 5px black;
-    z-index: 1;
 }
 
 .right-header {
