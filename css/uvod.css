@@ -34,12 +34,12 @@
 #intro-headings {
   position: absolute;
   z-index: 2;
-  max-width: 96vw;
+  max-width: 94vw;
 }
 
 #intro-title2 {
   font-size: 3rem;
-  font-family: sans-serif;
+  font-family: Cursive;
   color: #B8860B;
   text-shadow: #4b3705 0.02em 0.02em 0.01em;
   margin: 0;
@@ -47,7 +47,7 @@
 
 #intro-title3 {
   font-size: 3rem;
-  font-family: sans-serif;
+  font-family: Cursive;
   color: #B8860B;
   text-shadow: #4b3705 0.02em 0.02em 0.01em;
   margin: 0;
