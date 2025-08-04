@@ -34,6 +34,7 @@
 #intro-headings {
   position: absolute;
   z-index: 2;
+  max-width: 96vw;
 }
 
 #intro-title2 {
