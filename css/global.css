@@ -11,3 +11,8 @@ body{
     display: block;
     margin: 20px auto;
 }
+
+@font-face {
+    font-family: "ephesis-regular";
+    src: url("../fonts/Ephesis-Regular.ttf") format("truetype");
+}
