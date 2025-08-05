@@ -16,3 +16,8 @@ body{
     font-family: "ephesis-regular";
     src: url("../fonts/Ephesis-Regular.ttf") format("truetype");
 }
+
+@font-face {
+    font-family: "yrsa";
+    src: url("../fonts/Yrsa-VariableFont_wght.ttf") format("truetype");
+}
