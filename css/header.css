@@ -4,10 +4,9 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    border-bottom-right-radius: 15px;
     box-shadow: 0 2px 5px black;
     position: relative;
-    z-index: 100;
+    z-index: 10;
 }
 
 .right-header {
@@ -51,17 +50,38 @@ header {
         cursor: pointer;
         color: white;
         font-size: 21px;
-        margin: 8px 17px;
-        padding: 0 auto;
-        align-items: right;
+        margin: 11px 17px;
     }
 
     .menu.show {
         display: flex;
         flex-direction: column;
+        z-index: 11;
+        position: absolute;
+        width: 100vw;
+    }
+    .menu {
+        align-items: flex-end;
+    }
+    #menu-buttons {
+        width: 20%;
+        align-self: flex-end;
+        border-bottom-left-radius: 15px;
+        box-shadow: 0 4px 5px black;
     }
     .button-header {
         margin-left: 0;
-        padding: 10px 0;
+        padding: 8px 5px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .button-header:last-child {
+        border-bottom-left-radius: 15px;
+        margin-bottom: 4px;
+    }
+
+    .button-header-a {
+        font-size: 16px;
     }
 }
