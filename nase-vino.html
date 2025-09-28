@@ -17,7 +17,8 @@
                 <img class="logo-header" src="images/logo-bila.svg" alt="logo-header">
             </a>
         </div>
-        <div class="right-header" id="header">
+        <!--desktop menu-->  
+        <div class="right-header">
             <button class="button-header">
                 <a href="index.html" class="button-header-a">Úvod</a>
             </button>
@@ -34,6 +35,31 @@
                 <a href="kontakt.html" class="button-header-a">Kontakt</a>
             </button>
         </div>
+
+        <!--mobile menu-->
+        <div id="hamburger" onclick="toggleMenu()">☰</div>
+
     </header>
+        <!--mobile menu content-->
+    <div class="menu" id="menu">
+        <div id="menu-buttons">
+            <button class="button-header">
+                <a href="index.html" class="button-header-a">Úvod</a>
+            </button>
+            <button class="button-header">
+                <a href="nase-vino.html" class="button-header-a">Naše víno</a>
+            </button>
+            <button class="button-header">
+                <a href="o-nas.html" class="button-header-a">O nás</a>
+            </button>
+            <button class="button-header">
+                <a href="zdislava.html" class="button-header-a">Zdislava</a>
+            </button>
+            <button class="button-header">
+                <a href="kontakt.html" class="button-header-a">Kontakt</a>
+            </button>
+        </div>
+    </div>
+    <script src="javascript/menu.header.js"></script>
 </body>
 </html>    
