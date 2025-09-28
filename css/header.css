@@ -1,6 +1,7 @@
 header {
     background-color: nase-cervena;
     height: 6vh;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     border-bottom-right-radius: 15px;
@@ -32,7 +33,35 @@ header {
     margin: 8%;
 }
 
-@media screen and (max-width: 1024px) {
-    
-    
+#hamburger {
+    display: none
+    }
+.menu {
+    display: none;
+}
+
+
+@media screen and (max-width: 767px) {
+    .right-header {
+        display: none;
+    }
+
+    #hamburger {
+        display: block;
+        cursor: pointer;
+        color: white;
+        font-size: 21px;
+        margin: 8px 17px;
+        padding: 0 auto;
+        align-items: right;
+    }
+
+    .menu.show {
+        display: flex;
+        flex-direction: column;
+    }
+    .button-header {
+        margin-left: 0;
+        padding: 10px 0;
+    }
 }
