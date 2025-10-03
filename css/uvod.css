@@ -53,3 +53,20 @@
   margin: 0;
   text-align: right;
 }
+
+@media screen and (max-width: 767px) {
+  #intro-title1 {
+    font-size: clamp(8rem, 22vw, 20rem);
+  }
+  #bottle-image {
+    width: clamp(10px, 11vw, 300px);
+    height: auto;
+  }
+  #intro-title2, #intro-title3 {
+    font-size: clamp(1.5rem, 4vw, 3rem);
+  }
+  #background-image {
+    height: auto;
+    width: clamp(30px, 28vw, 800px);
+  }
+}
