@@ -22,7 +22,7 @@
 }
 
 #intro-title1 {
-  font-size: 23rem;
+  font-size: clamp(7rem, 22vw, 20rem);
   font-family: "ephesis-regular",sans-serif;
   color: #B8860B;
   text-shadow: #4b3705 0.02em 0.02em 0.01em;
@@ -56,7 +56,7 @@
 
 @media screen and (max-width: 767px) {
   #intro-title1 {
-    font-size: clamp(8rem, 22vw, 20rem);
+    font-size: clamp(6.5rem, 22vw, 20rem);
   }
   #bottle-image {
     width: clamp(10px, 11vw, 300px);
