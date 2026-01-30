@@ -9,20 +9,20 @@
   align-items: center;
 }
 #background-image {
-  height: 53%;
+  height: 57%;
   object-fit: cover;
   position: relative;
 }
 
 #bottle-image {
-  height: 54%;
+  height: 60%;
   display: block;
   position: absolute;
   z-index: 3;
 }
 
 #intro-title1 {
-  font-size: clamp(7rem, 22vw, 20rem);
+  font-size: clamp(7rem, 22vw, 22rem);
   font-family: "ephesis-regular",sans-serif;
   color: #B8860B;
   text-shadow: #4b3705 0.02em 0.02em 0.01em;
@@ -38,7 +38,7 @@
 }
 
 #intro-title2 {
-  font-size: 3rem;
+  font-size: 4rem;
   font-family: "yrsa",sans-serif;
   color: #B8860B;
   text-shadow: #4b3705 0.02em 0.02em 0.01em;
@@ -46,7 +46,7 @@
 }
 
 #intro-title3 {
-  font-size: 3rem;
+  font-size: 4rem;
   font-family: "yrsa",sans-serif;
   color: #B8860B;
   text-shadow: #4b3705 0.02em 0.02em 0.01em;
