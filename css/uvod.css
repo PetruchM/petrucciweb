@@ -53,6 +53,32 @@
   margin: 0;
   text-align: right;
 }
+#intro-upoutavka { 
+  height: 100vh;
+  background-color: azure;
+  justify-content: space-between;
+  display: flex;
+}
+
+#intro-upoutavka-image-container {
+  width: 35%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#intro-upoutavka-text-container {
+  width: 65%;
+  height: 100%;
+
+}
+
+#intro-upoutavka-image {
+  width: auto;
+  height: 500px;
+
+}
 
 @media screen and (max-width: 767px) {
   #intro-title1 {
