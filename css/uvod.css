@@ -58,6 +58,7 @@
   background-color: azure;
   justify-content: space-between;
   display: flex;
+  position: relative;
 }
 
 #intro-upoutavka-image-container {
@@ -71,13 +72,49 @@
 #intro-upoutavka-text-container {
   width: 65%;
   height: 100%;
-
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 
 #intro-upoutavka-image {
-  width: auto;
-  height: 500px;
+  width: 100%;
+  height: auto;
+}
 
+#upoutavka-title {
+  font-size: clamp(5rem, 12vw, 12rem);
+  font-family: "ephesis-regular",sans-serif;
+  text-shadow: #a7a7a7 0.015em 0.015em 0.01em;
+  color: #000000;
+  margin-top: 7%;
+  margin-bottom: 0;
+  position: relative;
+  z-index: 10;
+}
+
+#upoutavka-text-container {
+  width: 40%;
+  position: relative;
+}
+
+#upoutavka-text {
+  font-size: clamp(0.5rem, 1.5vw, 1.25rem);
+  font-weight: lighter;
+  margin: 0;
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+}
+
+#upoutavka-pozadi-prouzky {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 @media screen and (max-width: 767px) {
